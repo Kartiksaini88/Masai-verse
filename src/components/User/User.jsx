@@ -112,9 +112,9 @@ const User = ({getUsersData}) => {
       </Modal>
    <button onClick={() => {
           setmodal(!modal);
-        }} className="button-49" role="button">Post User
+        }} className="button-49" >Post User
     </button>
-   <button  className="button-49" role="button"><Link className="link" to="/">Home Page</Link>
+   <button  className="button-49" ><Link className="link" to="/">Home Page</Link>
     </button>
 
 
