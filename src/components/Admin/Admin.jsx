@@ -122,7 +122,7 @@ const Admin = ({ Users, getUsersData }) => {
                     deleteUser(e._id);
                   }}
                   class="button-13"
-                  role="button"
+                  
                 >
                   {loadingD ? "Loading.." : "Delete"}
                 </button>
@@ -131,7 +131,7 @@ const Admin = ({ Users, getUsersData }) => {
                     getid(e._id);
                   }}
                   class="button-13"
-                  role="button"
+                  
                 >
                   {loadingE ? "Loading.." : "Edit Prof"}
                 </button>
@@ -140,7 +140,7 @@ const Admin = ({ Users, getUsersData }) => {
           </div>
         ))}
       </div>
-      <button className="button-52" role="button"><Link className='links' to={'/'}>Home</Link></button>
+      <button className="button-52" ><Link className='links' to={'/'}>Home</Link></button>
     </div>
   );
 };
